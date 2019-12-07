@@ -12,7 +12,7 @@ int main() {
   // citirea elementelor vectorului
   for (int i = 0; i < n; i++) {
     cout << "a[" << i << "] = ";
-    cin >> *(a + i);
+    cin >> *(a + i); // sau a[i]
   }
 
   // aflarea valorii elementului maxim din vector și a poziției acestuia

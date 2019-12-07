@@ -16,7 +16,7 @@ int main() {
   cout << "y = " << y << '\n'; // y=5
   x = 4;
   cout << "x = " << x << '\n';
-  cout << "ptr = " << ptr << '\n';
+  cout << "ptr = " << ptr << ", *ptr = " << *ptr << '\n';
   // x si  ptr reprezinta acelasi obiect, un intreg cu valoarea 4
   x = 70;     // echivalenta cu  ptr=70;
   y = x + 10; // echivalenta cu y= ptr+10
