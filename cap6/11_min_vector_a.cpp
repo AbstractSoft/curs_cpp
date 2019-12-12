@@ -2,12 +2,12 @@
 
 using namespace std;
 
-void citireVector(int b[], int nr_el);
+void citireVector(int b[], int nr_elem);
 int min_tab(int a[], int nr_elem);
 
 int main() {
   int a[10];
-  int i, j, n;
+  int n;
   cout << "n = ";
   cin >> n;
   citireVector(a, n);
@@ -17,8 +17,8 @@ int main() {
   return 0;
 }
 
-void citireVector(int b[], int nr_el) {
-  for (int ind = 0; ind < nr_el; ind++) {
+void citireVector(int b[], int nr_elem) {
+  for (int ind = 0; ind < nr_elem; ind++) {
     cout << "Elem " << ind + 1 << " = ";
     cin >> b[ind];
   }
