@@ -17,8 +17,6 @@ int main() {
     an_bisect = false;
   } else if (an % 4 == 0) {
     an_bisect = true;
-  } else {
-    an_bisect = false;
   }
 
   std::cout << std::boolalpha << an_bisect;
