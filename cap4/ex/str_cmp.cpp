@@ -32,8 +32,8 @@ int main() {
     std::cout << "Sirurile sunt egale";
   }
 
-  delete[] sir_1;
-  delete[] sir_2;
+  delete sir_1;
+  delete sir_2;
 
   return 0;
 }
